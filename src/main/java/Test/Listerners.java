@@ -51,8 +51,5 @@ public class Listerners implements ITestListener {
         ITestListener.super.onFinish(context);
     }
 
-    @Override
-    public boolean isEnabled() {
-        return ITestListener.super.isEnabled();
-    }
+
 }
