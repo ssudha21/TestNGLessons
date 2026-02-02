@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Test.Listerners"/>
+    </listeners>
+    <parameter name="Website" value="Google Website"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/sumis/IntelliJIIDEA-Projects/MyLearning/TestNGLessons">
+        <parameter name="URL" value="www.google.com"/>
+        <classes>
+            <class name="Test.Lesson2">
+                <methods>
+                    <include name="Loan.*"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
